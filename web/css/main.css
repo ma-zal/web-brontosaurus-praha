@@ -1,0 +1,264 @@
+body {
+	background: #eee url('../img/bg-body.png');
+	font-family: "Open Sans", "Arial", sans-serif;
+	margin: 0;
+	overflow-y: scroll;
+}
+input, textarea {
+	font-family: "Open Sans", "Arial", sans-serif;
+	font-size: 110%;
+	padding: 6px 10px; border: 1px solid #aaa; border-radius: 3px;
+}
+#layout-top-space {
+	overflow: hidden;
+	height: 15px;
+	background: white;
+	margin-bottom: -8px;
+}
+#layout-top {
+	height: 254px;
+	background-image: url('../img/top.png'), url('../img/bg-top-linka.png');
+	background-repeat: no-repeat, repeat-x;
+	background-position: center top, 0 0;
+	z-index: 5;
+	position: relative;
+}
+#layout-top a { display: block; height: 80%; overflow: hidden; }
+#layout-top a span { display: none; }
+#main-container {
+	margin: -12px auto 0 auto;
+	width: 1180px;
+}
+
+#main-content {
+	padding: 30px 30px 30px;
+	background-color: white;
+	border-left: 1px solid #b3b3b3;
+	border-right: 1px solid #b3b3b3;
+	margin-left: 260px;
+}
+#left-menu {
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 230px;
+	padding-left: 10px;
+}
+#left-menu > ul {
+	margin: 0;
+	padding: 0;
+}
+#left-menu > ul > li {
+	margin: 0;
+	padding: 0 0 10px 0;
+	list-style-type: none;
+}
+#left-menu > ul> li > a {
+	color: white;
+	padding-top: 6px;
+	padding-left: 8px;
+	height: 32px;
+	display: block;
+	background-image: url('../img/bg-menu.png');
+	background-position: left top;
+	border-radius: 3px;
+	text-decoration: none;
+}
+#left-menu > ul> li > a:hover,
+#left-menu > ul> li.aktivni > a {
+	background-image: url('../img/bg-menu-aktivni.png');
+	color: black;
+}
+#left-menu > ul> li > a > i {
+	color: black;
+	margin-right: 10px;
+}
+
+#left-menu > ul > li > ul {
+	margin: 2px 0 0 28px;
+	padding: 0 0 0 0;
+}
+#left-menu > ul > li > ul > li {
+	margin: 0;
+	list-style-type: none;
+}
+#left-menu > ul > li > ul > li > a {
+	display: block;
+	border-radius: 3px;
+	height: 30px;
+	margin: 0 0 2px;
+	padding-top: 8px;
+	padding-left: 20px;
+	background-image: url('../img/bg-submenu.png');
+	background-position: left top;
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+}
+#left-menu > ul > li > ul > li > a:hover,
+#left-menu > ul > li > ul > li.aktivni > a {
+	background-image: url('../img/bg-submenu-aktivni.png');
+	color: black;
+}
+#left-menu li.dva-radky a {
+    padding-top: 3px;
+    height: 35px;
+    line-height: 1.2;
+
+}
+
+#footer {
+	clear: both;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #b3b3b3;
+	text-align: center;
+	margin-left: 260px;
+	font-size: small;
+	color: #222;
+}
+#footer a {
+	color: #222;
+	text-decoration: none;
+}
+#footer a:hover { text-decoration: underline; }
+
+@media screen and (max-width: 1199px) {
+	#main-container { width: auto;}
+}
+
+/** mobilni verze */
+@media screen and (max-width: 767px) {
+	#layout-top {
+		height: 127px;
+		background-size: 483px 127px, 4px 121px;
+	}
+	#left-menu, #main-content, #footer { float: none; width: auto; }
+	#main-content { padding: 10px; }
+	#left-menu { margin: 0 10px; padding-left: 0; }
+	#footer, #main-content { margin-left: 0; border: 0; }
+}
+@media screen and (max-width: 420px) {
+	#layout-top {
+		height: 85px;
+		background-size: 322px 85px, 3px 81px;
+	}
+}
+@media screen and (min-width: 980px) {
+	#uvod-left { margin-right: 270px;}
+	#uvod-right { float: right;  width: 230px; }
+}
+
+.clear-hidden { clear: both; height: 1px; overflow: hidden }
+
+
+/* HLAVNI OBSAH */
+
+#main-content a {
+	color: #40638b;
+}
+#main-content p {
+	line-height: 1.8;
+	text-align: justify;
+}
+
+#main-content h1,
+#main-content h2,
+#main-content h3 {
+	color: #ffba02;
+	font-weight: 300;
+}
+.komentarNadpisu {
+	color: #ffba02;
+	font-size: large;
+	font-weight: 300;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+
+#main-content img.img-right {
+	float: right;
+	margin: 10px 0 10px 20px;
+}
+
+#main-content img.img-left {
+	float: left;
+	margin: 10px 20px 10px 0;
+}
+
+.ilustracniFotoSeznam {
+	margin: 40px 0;
+	padding: 0;
+	text-align: center;
+	font-size: 0;
+}
+.ilustracniFotoSeznam li {
+	display: inline-block;
+	margin: 2px;
+	list-style-type: none;
+}
+
+
+#brdo-menu li.aktivni {
+	font-weight: bold;
+	list-style-type: circle;
+}
+#main-content ul.nav li {
+	list-style-type: none;
+	line-height: 1.6;
+}
+#main-content ul.nav li a {
+	text-decoration: none;
+}
+#main-content ul.nav li a:hover {
+	text-decoration: underline;
+}
+#main-content ul.nav li:before {
+	content: '\f18e'; /* FontAwesome char code inside the '' */
+
+	font-family: FontAwesome; /* FontAwesome or whatever */
+	display: inline-block;
+	width: 2em; /* same as padding-left set on li */
+	color: #ffba02;
+}
+#main-content ul.nav li:hover:before,
+#main-content ul.nav li.aktivni:before {
+ 	content: '\f0a9';
+	color: #40638b;
+}
+
+form { background: #f6f6f6; padding: 20px; }
+form .form-item label { display:block; font-weight: bold; margin-bottom: 3px; }
+form .form-item input, form .form-item textarea { display:block; width: 100%; box-sizing: border-box; }
+.size-50 { width: 50% !important; }
+form .form-item { margin-bottom: 15px; }
+
+button.btn { padding: 7px 40px; border-radius: 3px; font-size: 110%; }
+
+/* konec HLAVNI OBSAH */
+
+.text-right { text-align: right; }
+.clear { clear: both; }
+
+img[src="null"] {
+	background: #eee;
+}
+
+.facebookEvent {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 3px #f0f0ff solid;
+}
+.facebookEvent .name a {
+	text-decoration: none;
+}
+.facebookEvent .name a:hover { text-decoration: underline; }
+
+.facebookEvent .time {  font-size: small; }
+.facebookEvent .location {  font-size: small; }
+
+.photo-copyright {
+	font-size: x-small;
+	text-align: center;
+	margin: -30px 0 20px;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "web-brontosaurus-praha",
+  "homepage": "http://praha.brontosaurus.cz/",
+  "authors": [
+    "ma-zal <ma-zal@users.noreply.github.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "private",
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Swiper": "swiper#~3.3.1"
+  }
+}
