@@ -12,7 +12,7 @@ require_once __DIR__ . '/../../config/html_top.php';
 	<h1>
 		BRĎO - BRontosauří Dětský Oddíl
 	</h1>
-	<div class="komentarNadpisu">Provozovaný pod pražským Regionálním centrem Hnutí Brontosaurus</div>
+	<div class="komentarNadpisu">Provozovaný Regionálním centrem Hnutí Brontosaurus Praha</div>
 
 	<ul class="nav" id="brdo-menu">
 		<li><a href="#brdo-uvod">Úvod o BRĎO</a></li>
@@ -26,8 +26,8 @@ require_once __DIR__ . '/../../config/html_top.php';
 	<section class="brdo-sekce" id="brdo-uvod">
 		<h2>Úvod o BRĎO</h2>
 		<img class="img-right" src="img/ilust-0210-v32.jpg" width="320" height="480" alt="Ilustrační foto" />
-		<p>BRontosauří Dětský Oddíl je zaměřen na ty nejmenší. Nabízíme alternativu klasických kroužků. Děti se v pravidelných týdenních schůzkách učí jak funguje příroda, možnostech jak ji chránit a vytvářejí si k ní pozitivní vztah. Do programu oddílovek zařazujeme hry rozvíjející jejich motorické i psychické schopnosti, včetně her na odreagování. S dětmi také oživujeme tradiční zvyky a rozvíjíme kreativitu výtvarnými dílničkami.</p>
-		<p>Pořádáme oddílové schůzky a výlety pro rodiče s dětmi. Při tvorbě programu dbáme na propojení prvků ekologické výchovy a zážitkové pedagogiky uzpůsobené dětem, jejich potřebám a zájmu. Zakládáme si na dobrovolnosti, děti do žádné činnosti nenutíme a necháváme jim prostor pro vlastní tvořivost a rozvoj osobnosti.</p>
+		<p>BRontosauří Dětský Oddíl je zaměřen na ty nejmenší. Nabízíme alternativu klasických kroužků. Děti se v pravidelných týdenních schůzkách učí, jak funguje příroda, o možnostech jak ji chránit a vytvářejí si k ní pozitivní vztah. Do programu oddílovek zařazujeme hry rozvíjející jejich motorické i psychické schopnosti, včetně her na odreagování. S dětmi také oživujeme tradiční zvyky a rozvíjíme kreativitu výtvarnými dílničkami.</p>
+		<p>Při tvorbě programu dbáme na propojení prvků ekologické výchovy a zážitkové pedagogiky uzpůsobené dětem, jejich potřebám a zájmu. Zakládáme si na dobrovolnosti, děti do žádné činnosti nenutíme a necháváme jim prostor pro vlastní tvořivost a rozvoj osobnosti.</p>
 		<p>BRontosauří Dětský Oddíl v Praze byl založen v roce 2013 a od té doby pořádáme pravidelné oddílové schůzky a víkendové výlety pro rodiče s dětmi. Jsme tu pro děti, které chtějí zažít radost z objevování krás přírody, vyřádit se při hrách, poznat nové kamarády a naučit se chovat zodpovědně ke svému okolí.
 		<p>V rámci našich pravidelných týdenních setkání si děti formou her a zábavných aktivit osvojují nové dovednosti a schopnosti, při nichž se vzájemně seznamují, učí spolupráci a souznění s přírodou.</p>
 

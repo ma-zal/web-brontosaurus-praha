@@ -12,15 +12,15 @@ require_once __DIR__ . '/../../config/html_top.php';
 	<h1>
 		Rozruch
 	</h1>
-	<div class="komentarNadpisu">Pražský článek hnutí Brontosaurus</div>
+	<div class="komentarNadpisu">Základní článek Hnutí Brontosaurus působící v Praze a okolí</div>
 
 	<p>Jsme parta kamarádů se společným zájmem o přírodu, neobyčejné zážitky a trochu méně konzumní styl života.</p>
 
-	<p>Krom ochrany přírody se zaměřujeme na neformální vzdělávání mládeže, zejména budování vztahů mezi lidmi a&nbsp;přírodou a mezi lidmi navzájem.</p>
+	<p>Kromě ochrany přírody se zaměřujeme na neformální vzdělávání mládeže, zejména budování vztahů mezi lidmi a&nbsp;přírodou a mezi lidmi navzájem.</p>
 
 	<p>
-		Ale o tom kdo skutečně jsme se nejlépe přesvědčíte když se podíváte na akce které děláme, nebo dokonce na nějakou přijedete.
-		Sídlíme v Praze, tedy většinu krátkých akcí situjeme poblíž, na prázdinovky rádi jezdíme hlavně do Krkonoš či Jeseníků.
+		Ale o tom, kdo skutečně jsme, se nejlépe přesvědčíte, když se podíváte na akce které děláme, nebo dokonce na nějakou přijedete.
+		Sídlíme v Praze, tedy většinu krátkých akcí situujeme poblíž, na prázdninovky rádi jezdíme hlavně do Krkonoš či Jeseníků.
 	</p>
 
 	<p>Chceš-li se dozvědět o nás víc, podívej se na náš <a href="http://rozruch.brontosaurus.cz/" target="_blank">web brontosauřího článku Rozruch</a>.

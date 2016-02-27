@@ -10,7 +10,7 @@ require_once __DIR__ . '/../config/html_top.php';
 
 	<h1>Klubové večery</h1>
 	<p>
-		Pražské brontosauří kluby jsou večery na různá témata otevřené všem, kteří mají zájem o to se něco dozvědět, naučit,
+		Pražské brontosauří kluby jsou večery na různá témata otevřené všem, kteří mají zájem se něco dozvědět, naučit,
 		odreagovat se nebo se setkávat s přáteli a poznávat nové. Kluby probíhají od září do června nejčastěji od šesti hodin
 		a konají se přímo v naší klubovně v Senovážné ulici <!--TODO odkaz zde na web-->, případně někde venku porůznu po Praze,
 		například když pořádáme pikniky nebo vycházky po pražské přírodě.
@@ -20,9 +20,9 @@ require_once __DIR__ . '/../config/html_top.php';
 		řadě večery večeřící. Vedle těch pravidelných, které se konají jednou za dva týdny, případně jednou za měsíc,
 		můžete navštívit i spoustu akcí nepravidelně pravidelných, anebo také naprosto ojedinělých.
 	</p>
-		<p>
+	<p>
 		Do přípravy klubů se můžeš zapojit i Ty! Máš nápad? Máš chuť něco uspořádat?
-		Ozvi se <a href="https://www.facebook.com/messages/terka.opravilova">Terce</a>, koordinátorce
+		Ozvi se <a href="mailto:terca.op@seznam.cz">Terce</a>, koordinátorce
 		klubových večerů. Pomůžeš nám i tím, když nám <a href="http://goo.gl/forms/BCG33BBD94">vyplníš dotazník</a> o tom,
 		jak se Ti kluby líbily.
 	</p>

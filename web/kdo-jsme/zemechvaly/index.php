@@ -11,8 +11,8 @@ require_once __DIR__ . '/../../config/html_top.php';
 
 	<h1>
 		Zeměchvály
-	<h1>
-	<div class="komentarNadpisu">Pražský článek hnutí Brontosaurus</div>
+	</h1>
+	<div class="komentarNadpisu">Základní článek Hnutí Brontosaurus působící v Praze a okolí</div>
 
 	<h2>Kdo jsme?</h2>
 	<img src="img/1.jpg" alt="Zemechvály u středu všehomíra" width="480" height="463" class="img-right" />

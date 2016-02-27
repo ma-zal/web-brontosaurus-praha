@@ -13,7 +13,7 @@ require_once __DIR__ . '/../../config/html_top.php';
 
 	<p>
 		V rámci Hnutí Brontosaurus pořádáme tradiční soutěž Ekofór. Účastní se jí široká veřejnost včetně dětí,
-		a to zasíláním kreslených vtipů, koláží či fotografií (opatřených patřičnými komentáři) s ekologickou tématikou.
+		a to zasíláním kreslených vtipů, koláží či fotografií (opatřených patřičnými komentáři) s ekologickou tematikou.
 	</p>
 
 	<p>

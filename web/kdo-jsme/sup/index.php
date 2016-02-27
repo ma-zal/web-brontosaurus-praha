@@ -12,7 +12,7 @@ require_once __DIR__ . '/../../config/html_top.php';
 	<h1>
 		SUP
 	</h1>
-	<div class="komentarNadpisu">Pražský článek hnutí Brontosaurus</div>
+	<div class="komentarNadpisu">Základní článek Hnutí Brontosaurus působící v Praze a okolí</div>
 
 	<p>SUP - Sport, Umění, Práce nebo také Spolek Úplně Praštěných je článek vzniklý v roce 1986.</p>
 
@@ -24,7 +24,7 @@ require_once __DIR__ . '/../../config/html_top.php';
 		Sup nemá definovány žádné vysoké a ušlechtilé cíle! Po pravdě řečeno, máme ve stanovách cosi jako ekologie lidských vztahů,
 		ale ještě jsme se neshodli na tom co to znamená. Hmmm - my si prostě jen rádi hrajem, tak je to!
 		Kromě toho taky řádíme, zkoušíme co vydržíme a vymýšlíme šílenosti (nejlépe takové které ještě nikdo nevymyslel).
-		Bohužel ať chceme nebo ne, stejně se nám tam to "poznání sebe sama" nebo "enviromentální výchova" nějak vplíží i proti naší vůli.
+		Bohužel, ať chceme nebo ne, stejně se nám tam to "poznání sebe sama" nebo "environmentální výchova" nějak vplíží i proti naší vůli.
 		A s tím i jiní plíživí tvorové jako „celoživotní přátelství" nebo "nezapomenutelné zážitky"
 		nebo "radost ze života" či snad dokonce i "láska k bližnímu".
 	</p>

@@ -25,8 +25,20 @@ require_once __DIR__ . '/../../config/html_top.php';
     </p>
 
     <p class="vcard">
+        <div class="fn"><strong>Andrea Romanowská</strong></div>
+        <div class="title">místopředsedkyně Regionálního centra</div>
+        <a class="email" href="mailto:praha@brontosaurus.cz">praha@brontosaurus.cz</a>
+    </p>
+
+    <p class="vcard">
+        <div class="fn"><strong>Hana Pupíková</strong></div>
+        <div class="title">hospodářka Regionálního centra</div>
+        <a class="email" href="mailto:praha@brontosaurus.cz">praha@brontosaurus.cz</a>
+    </p>
+
+    <p class="vcard">
         <div class="fn"><strong>Michal Švarný</strong></div>
-        <div class="title">místopředseda Hnutí Brontosaurus</div>
+        <div class="title">předseda Hnutí Brontosaurus</div>
         <div class="title">vedoucí organizátorského kurzu</div>
         <a class="email" href="mailto:michal.svarny@brontosaurus.cz">michal.svarny@brontosaurus.cz</a>
         <div class="tel">+420 732 729 742</div>

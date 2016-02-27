@@ -25,14 +25,14 @@ $GLOBALS[CONFIG]['header']['otherScripts'] .= '
 require_once __DIR__ . '/../config/html_top.php';
 ?>
 
-	<h1>Kdo je Hnutí Brontosaurus?</h1>
-	<p>Hnutí Brontosaurus je nezisková organizace, jejíž práce je vidět.</p>
+	<h1>Hnutí Brontosaurus</h1>
+	<div class="komentarNadpisu">Hnutí Brontosaurus je nezisková organizace, jejíž práce je vidět.</div>
 
 	<p>
 		Hnutí Brontosaurus je uskupení převážně mladých lidí do 26 let, kterým není lhostejný svět, ve kterém žijí.
 		Propojují proto smysluplnou práci pro přírodu, památky i lidi s netradičními zážitky a zábavou.
-		Jsou nezávislí a otevření novým myšlenkám. Každoročně s nimi vyráží na kosení orchidejových luk,
-		sázení stromů, opravování hradů nebo třeba stavění školy v Himálajích tisíce dobrovolníků. Přidej se i Ty!
+		Jsou nezávislí a otevření novým myšlenkám. Každoročně s nimi vyráží tisíce dobrovolníků na kosení orchidejových luk,
+		sázení stromů, opravování hradů nebo třeba stavění školy v Himálajích. Přidej se i Ty!
 	</p>
 
 	<ul class="ilustracniFotoSeznam">
@@ -40,7 +40,7 @@ require_once __DIR__ . '/../config/html_top.php';
 	</ul>
 	<p>
 		Hnutí Brontosaurus má <a href="http://brontosaurus.cz/o-nas/historie-brontosaura">více než čtyřicetiletou tradici<a>,
-		<a href="http://brontosaurus.cz/o-nas/nase-uspechy">"viditelné úspěchy</a> a více než 1 000 hrdých členů,
+		<a href="http://brontosaurus.cz/o-nas/nase-uspechy">viditelné úspěchy</a> a více než 1 000 hrdých členů,
 		kteří za ním stojí. Ti si mezi sebou sami volí vedení organizace - jde prostě o týmovou hru,
 		ve které je přátelství stejně důležité jako důvěra.
 	</p>
