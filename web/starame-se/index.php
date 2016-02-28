@@ -17,7 +17,7 @@ require_once __DIR__ . '/../config/html_top.php';
 	</p>
 
 	<ul class="ilustracniFotoSeznam">
-		<li><img src="img/veltrusy.jpg" width="640" height="427" alt="Zámek Veltrusy" /></li>
+		<li class="img-responsive" style="max-width:640px;"><img src="img/veltrusy.jpg" alt="Zámek Veltrusy" /></li>
 	</ul>
 <?php
 require_once __DIR__ . '/../config/html_bottom.php';

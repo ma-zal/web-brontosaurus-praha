@@ -32,12 +32,12 @@ require_once __DIR__ . '/../config/html_top.php';
 	</p>
 
 	<ul class="ilustracniFotoSeznam">
-		<li><img width="420" src="img/kluby_deskovky_01.jpg" /></li>
-		<li><img width="420" src="img/kluby_deskovky_02_cr.jpg" /></li>
-		<li><img width="844" src="img/kluby_film_01_cr.jpg" /></li>
-		<li><img width="420" src="img/kluby_film_02.jpg" /></li>
-		<li><img width="420" src="img/kluby_obecny_02.jpg" /></li>
-		<li><img width="844" src="img/kluby_piknik_01_cr.jpg" /></li>
+		<li class="img-responsive img-responsive-50"><img src="img/kluby_deskovky_01.jpg" /></li>
+		<li class="img-responsive img-responsive-50"><img src="img/kluby_deskovky_02_cr.jpg" /></li>
+		<li class="img-responsive img-responsive-100"><img src="img/kluby_film_01_cr.jpg" /></li>
+		<li class="img-responsive img-responsive-50"><img src="img/kluby_film_02.jpg" /></li>
+		<li class="img-responsive img-responsive-50"><img src="img/kluby_obecny_02.jpg" /></li>
+		<li class="img-responsive img-responsive-100"><img src="img/kluby_piknik_01_cr.jpg" /></li>
 	</ul>
 	<div class="photo-copyright">Foto: Alexandr Radecký</div>
 

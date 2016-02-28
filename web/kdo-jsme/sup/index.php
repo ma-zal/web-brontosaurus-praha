@@ -36,7 +36,7 @@ require_once __DIR__ . '/../../config/html_top.php';
 	<p>A více se o nás dovíte na <a href="http://sup.brontosaurus.cz/" target="_blank">webu článku "Sup"</a>.</p>
 
 	<ul class="ilustracniFotoSeznam">
-		<li><img src="img/sup.jpg" alt="ilustracni foto" width="640" height="480" /></li>
+		<li class="img-responsive" style="max-width: 640px;"><img src="img/sup.jpg" alt="ilustracni foto" /></li>
 	</ul>
 
 <?php

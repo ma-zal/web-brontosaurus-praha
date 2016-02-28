@@ -16,7 +16,7 @@ require_once __DIR__ . '/../config/html_top.php';
     </p>
 
     <ul class="ilustracniFotoSeznam">
-        <li><img width="844" src="img/ohb-plakat.png" /></li>
+        <li class="img-responsive img-responsive-100"><img src="img/ohb-plakat.png" /></li>
     </ul>
 
     <p>
@@ -33,7 +33,7 @@ require_once __DIR__ . '/../config/html_top.php';
     </p>
 
     <ul class="ilustracniFotoSeznam">
-        <li><img width="844" src="img/ohb-1.jpg" /></li>
+        <li class="img-responsive img-responsive-100"><img src="img/ohb-1.jpg" /></li>
     </ul>
 
 <?php

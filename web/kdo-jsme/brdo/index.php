@@ -51,8 +51,8 @@ require_once __DIR__ . '/../../config/html_top.php';
 		<p>Děti jsou po celou dobu vedené dvěma zkušenými organizátory z Hnutí Brontosaurus.</p>
 
 		<ul class="ilustracniFotoSeznam">
-			<li><img src="img/ilust-0237.jpg" width="420" height="280" alt="Ilustrační foto" /></li>
-			<li><img src="img/ilust-2586.jpg" width="420" height="280" alt="Ilustrační foto" /></li>
+			<li class="img-responsive img-responsive-50"><img src="img/ilust-0237.jpg" alt="Ilustrační foto" /></li>
+			<li class="img-responsive img-responsive-50"><img src="img/ilust-2586.jpg" alt="Ilustrační foto" /></li>
 		</ul>
 	</section>
 
@@ -64,8 +64,8 @@ require_once __DIR__ . '/../../config/html_top.php';
 		<p>Náklady se pohybují v okolo 50Kč/rodina a jsou využity na materiál a zdravé sladkosti do pokladu.</p>
 
 		<ul class="ilustracniFotoSeznam">
-			<li><img src="img/ilust-2485.jpg" width="420" height="315" alt="Ilustrační foto" /></li>
-			<li><img src="img/ilust-2496.jpg" width="420" height="315" alt="Ilustrační foto" /></li>
+			<li class="img-responsive img-responsive-50"><img src="img/ilust-2485.jpg" alt="Ilustrační foto" /></li>
+			<li class="img-responsive img-responsive-50"><img src="img/ilust-2496.jpg" alt="Ilustrační foto" /></li>
 		</ul>
 	</section>
 
@@ -214,10 +214,10 @@ require_once __DIR__ . '/../../config/html_top.php';
 		</form>
 
 		<ul class="ilustracniFotoSeznam">
-			<li><img src="img/ilust-2650.jpg" width="420" alt="Ilustrační foto" /></li>
-			<li><img src="img/ilust-2659.jpg" width="420" alt="Ilustrační foto" /></li>
-			<li><img src="img/ilust-10.jpg" width="420" alt="Ilustrační foto" /></li>
-			<li><img src="img/ilust-11.jpg" width="420" alt="Ilustrační foto" /></li>
+			<li class="img-responsive img-responsive-50"><img src="img/ilust-2650.jpg" alt="Ilustrační foto" /></li>
+			<li class="img-responsive img-responsive-50"><img src="img/ilust-2659.jpg" alt="Ilustrační foto" /></li>
+			<li class="img-responsive img-responsive-50"><img src="img/ilust-10.jpg" alt="Ilustrační foto" /></li>
+			<li class="img-responsive img-responsive-50"><img src="img/ilust-11.jpg" alt="Ilustrační foto" /></li>
 		</ul>
 
 	</section>

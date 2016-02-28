@@ -26,8 +26,8 @@ require_once __DIR__ . '/../../config/html_top.php';
 	<p>Chceš-li se dozvědět o nás víc, podívej se na náš <a href="http://rozruch.brontosaurus.cz/" target="_blank">web brontosauřího článku Rozruch</a>.
 
 	<ul class="ilustracniFotoSeznam">
-		<li><img src="img/img2581.jpg" width="420" alt="Ilustrační foto" /></li>
-		<li><img src="img/naruby.jpg" width="420" alt="Ilustrační foto" /></li>
+		<li class="img-responsive img-responsive-50"><img src="img/img2581.jpg" alt="Ilustrační foto" /></li>
+		<li class="img-responsive img-responsive-50"><img src="img/naruby.jpg" alt="Ilustrační foto" /></li>
 	</ul>
 
 

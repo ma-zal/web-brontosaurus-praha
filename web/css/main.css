@@ -27,7 +27,7 @@ input, textarea {
 #layout-top a span { display: none; }
 #main-container {
 	margin: -12px auto 0 auto;
-	width: 1180px;
+	max-width: 1180px;
 }
 
 #main-content {
@@ -194,8 +194,21 @@ input, textarea {
 }
 .ilustracniFotoSeznam li {
 	display: inline-block;
-	margin: 2px;
+	margin: 0;
 	list-style-type: none;
+}
+.ilustracniFotoSeznam li.img-responsive { width: 100%; }
+.ilustracniFotoSeznam li.img-responsive img { max-width: 100%; height: auto; }
+@media screen and (max-width: 959px) {
+	.ilustracniFotoSeznam li.img-responsive.img-responsive-50 { width: 100%; }
+}
+@media screen and (min-width: 960px) {
+	.ilustracniFotoSeznam li.img-responsive.img-responsive-50 { width: 50%; }
+}
+
+.ilustracniFotoSeznam li img {
+	box-sizing: border-box;
+	padding: 2px;
 }
 
 

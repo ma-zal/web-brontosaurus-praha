@@ -31,8 +31,8 @@ require_once __DIR__ . '/../../config/html_top.php';
 	</p>
 
 	<ul class="ilustracniFotoSeznam">
-		<li><img src="img/1.jpg" width="420" height="280" alt="ilustrační foto" /></li>
-		<li><img src="img/2.jpg" width="420" height="280" alt="ilustrační foto" /></li>
+		<li class="img-responsive img-responsive-50"><img src="img/1.jpg" alt="ilustrační foto" /></li>
+		<li class="img-responsive img-responsive-50"><img src="img/2.jpg" alt="ilustrační foto" /></li>
 	</ul>
 <?php
 require_once __DIR__ . '/../../config/html_bottom.php';
