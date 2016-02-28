@@ -5,6 +5,9 @@
 	$GLOBALS[CONFIG]['header']['title'] = 'Úvod - ' . $GLOBALS[CONFIG]['header']['title'] ;
 	$GLOBALS[CONFIG]['leftMenu']['kdo-jsme']['aktivni'] = true;
 	require_once 'config/html_top.php';
+
+	const FCB_ACCESS_TOKEN = '{{FCB_ACCESS_TOKEN}}';
+
 ?>
 	<section>
 		<h1>Brontosaurus v Praze, aneb Kdo jsme</h1>
@@ -32,8 +35,7 @@
 		<section>
 			<h1>Přijď za námi</h1>
 			<?php
-			$FCB_ACCESS_TOKEN = '{{FCB_ACCESS_TOKEN}}';
-			$eventsApiUrl = 'https://graph.facebook.com/v2.5/brontik.praha/events?access_token='.$FCB_ACCESS_TOKEN.'&limit=250&since=' . mktime();
+			$eventsApiUrl = 'https://graph.facebook.com/v2.5/brontik.praha/events?access_token=' . FCB_ACCESS_TOKEN . '&limit=250&since=' . mktime();
 			$fcbApiResult = @file_get_contents($eventsApiUrl);
 			if ($fcbApiResult) {
 				$events = json_decode($fcbApiResult, true);
@@ -62,7 +64,7 @@
 	<section id="uvod-left">
 		<h1>Co je nového?</h1>
 		<?php
-		$postsApiUrl = 'https://graph.facebook.com/v2.5/brontik.praha/feed?access_token='.$FCB_ACCESS_TOKEN.'&limit=10';
+		$postsApiUrl = 'https://graph.facebook.com/v2.5/brontik.praha/feed?access_token=' . FCB_ACCESS_TOKEN . '&limit=10';
 		$fcbApiResult = @file_get_contents($postsApiUrl);
 		if ($fcbApiResult) {
 			$posts = json_decode($fcbApiResult, true);
