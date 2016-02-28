@@ -262,3 +262,18 @@ img[src="null"] {
 	text-align: center;
 	margin: -30px 0 20px;
 }
+
+.error-box {
+	background: #FFEBEE;
+	border-top: 3px solid #EF5350;
+	padding: 10px;
+}
+.error-box p {
+	margin: 0.5em 0;
+}
+.error-box h6 {
+	font-size: 100%;
+	color: #B71C1C;
+	font-weight: bold;
+	margin: 0 0 0.5em;
+}

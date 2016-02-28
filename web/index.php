@@ -33,16 +33,27 @@
 			<h1>Přijď za námi</h1>
 			<?php
 			$FCB_ACCESS_TOKEN = '{{FCB_ACCESS_TOKEN}}';
-			$eventsUrl = 'https://graph.facebook.com/v2.5/brontik.praha/events?access_token='.$FCB_ACCESS_TOKEN.'&limit=250&since=' . mktime();
-			$events = json_decode(file_get_contents($eventsUrl), true);
-			$events = array_reverse($events['data']);
-			foreach($events as $event) {
-				$startTime = DateTime::createFromFormat('Y-m-d\TH:i:sT', $event['start_time']);
-				echo '<article class="facebookEvent">';
-				echo '<div class="name"><a href="https://www.facebook.com/events/'.$event['id'].'" title="'.$event['description'].'">'.$event['name'].'</a></div>';
-				echo '<div class="time">' . $startTime->format('j.n. H:i') . '</div>';
-				echo '<div class="location">Místo: ' . $event['place']['name'] . '</div>';
-				echo '</article>';
+			$eventsApiUrl = 'https://graph.facebook.com/v2.5/brontik.praha/events?access_token='.$FCB_ACCESS_TOKEN.'&limit=250&since=' . mktime();
+			$fcbApiResult = @file_get_contents($eventsApiUrl);
+			if ($fcbApiResult) {
+				$events = json_decode($fcbApiResult, true);
+				$events = array_reverse($events['data']);
+				foreach ($events as $event) {
+					$startTime = DateTime::createFromFormat('Y-m-d\TH:i:sT', $event['start_time']);
+					echo '<article class="facebookEvent">';
+					echo '<div class="name"><a href="https://www.facebook.com/events/' . $event['id'] . '" title="' . $event['description'] . '">' . $event['name'] . '</a></div>';
+					echo '<div class="time">' . $startTime->format('j.n. H:i') . '</div>';
+					echo '<div class="location">Místo: ' . $event['place']['name'] . '</div>';
+					echo '</article>';
+				}
+			} else {
+				echo '<div class="error-box"><small>';
+				echo 	'<h6>Promiň, něco se rozbilo!</h6>';
+				echo 	'<p>';
+				echo 		'Zatím se podívej do ';
+				echo 		'<a target="_blank" href="https://www.facebook.com/brontik.praha/events">našich událostí na Facebooku</a> přímo.';
+				echo 	'</p>';
+				echo '</small></div>';
 			}
 			?>
 		</section>
@@ -51,30 +62,41 @@
 	<section id="uvod-left">
 		<h1>Co je nového?</h1>
 		<?php
-		$postsUrl = 'https://graph.facebook.com/v2.5/brontik.praha/feed?access_token='.$FCB_ACCESS_TOKEN.'&limit=10';
-		$posts = json_decode(file_get_contents($postsUrl), true);
-		$posts = $posts['data'];
-		$postCount = 0;
-		$message = (isset($post['message']) ? $post['message'] : '');
-		foreach($posts as $post) {
-			$postId = explode('_', $post['id']);
-			$postUrl = 'https://www.facebook.com/brontik.praha/posts/'.$postId[1];
-			if (!isset($post['story']) || strpos($post['story'], "created an event.") === false) {
-				$created = DateTime::createFromFormat('Y-m-d\TH:i:sT', $post['created_time']);
-				echo '<div class="fb-post" data-href="'.$postUrl.'" data-width="688">
-						<div class="fb-xfbml-parse-ignore">
-							<blockquote cite="'.$postUrl.'">
-								<p>'.$message.'</p>
-								dne&nbsp;'.$created->format('j.n.Y').'
-							</blockquote>
-						</div>
-					</div>';
-				echo '<br /><br />';
-				$postCount++;
+		$postsApiUrl = 'https://graph.facebook.com/v2.5/brontik.praha/feed?access_token='.$FCB_ACCESS_TOKEN.'&limit=10';
+		$fcbApiResult = @file_get_contents($postsApiUrl);
+		if ($fcbApiResult) {
+			$posts = json_decode($fcbApiResult, true);
+			$posts = $posts['data'];
+			$postCount = 0;
+			$message = (isset($post['message']) ? $post['message'] : '');
+			foreach ($posts as $post) {
+				$postId = explode('_', $post['id']);
+				$postUrl = 'https://www.facebook.com/brontik.praha/posts/' . $postId[1];
+				if (!isset($post['story']) || strpos($post['story'], "created an event.") === false) {
+					$created = DateTime::createFromFormat('Y-m-d\TH:i:sT', $post['created_time']);
+					echo '<div class="fb-post" data-href="' . $postUrl . '" data-width="688">
+							<div class="fb-xfbml-parse-ignore">
+								<blockquote cite="' . $postUrl . '">
+									<p>' . $message . '</p>
+									dne&nbsp;' . $created->format('j.n.Y') . '
+								</blockquote>
+							</div>
+						</div>';
+					echo '<br /><br />';
+					$postCount++;
+				}
+				if ($postCount >= 3) {
+					break;
+				}
 			}
-			if ($postCount >= 3) {
-				break;
-			}
+		} else {
+			echo '<div class="error-box"><small>';
+			echo '<h6>Něco se rozbilo! Brzdy to ale jistě opravíme.</h6>';
+			echo '<p>';
+			echo 	'Zatím se podívej do ';
+			echo 	'<a target="_blank" href="https://www.facebook.com/brontik.praha/">našich posledních příspěvků na Facebooku</a> přímo.';
+			echo '</p>';
+			echo '</small></div>';
 		}
 		?>
 
