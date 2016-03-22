@@ -11,7 +11,7 @@
 	 *  a klíčová slova (KEYWORDS). Tyto tři údaje je vhodné nastavit kvůli vyhledávačům.
 	 */	 	 	 
 	$GLOBALS[CONFIG]['header'] = array(
-		'title' => 'Praha, Hnutí Brontosaurus',
+		'title' => 'Hnutí Brontosaurus Praha',
 		'description' => '',
 		'keywords' => '',
 		'others' => '',
