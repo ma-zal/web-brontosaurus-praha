@@ -12,23 +12,20 @@
 	<section>
 		<h1>Brontosaurus v Praze, aneb Kdo jsme</h1>
 		<p>
-			<a href="http://www.brontosaurus.cz/">Hnutí Brontosaurus</a> je celorepubliková dobrovolnická organizace,
-			která už přes 40 let pořádá víkendové i vícedenní akce pro děti a mládež. Součástí těchto akcí je zpravidla
-			dobrovolnická práce na <a href="http://brontosaurus.cz/akce-priroda">pomoc přírodě</a> nebo
-			<a href="http://brontosaurus.cz/akce-pamatky">památkám</a>, v&nbsp;České republice i
-			<a href="http://brontosaurus.cz/zahranici">v zahraničí</a>, zároveň ale také zážitkový program zaměřený na
-			osobnostní rozvoj a sociální dovednosti.
-		</p>
+			<a href="/brontosaurus/kdo-jsme/">Hnutí Brontosaurus</a> je celorepubliková dobrovolnická organizace. 
+			V Praze jej zastupuje vedle několika základních článků (
+			<a href="/brontosaurus/kdo-jsme/rozruch/">Rozruch</a>,
+			<a href="/brontosaurus/kdo-jsme/sup/">SUP</a> a další) také jedno brontosauří 
+			regionální centrum, a to jsme my. V rámci naší činnosti pořádáme každoroční večerní 
+			<a href="/brontosaurus/organizatorsky-kurz/">organizátorský kurz</a>, zajišťujeme 
+			<a href="/brontosaurus/kdo-jsme/brdo/">Brontosauří dětský oddíl (BRĎO)</a>, staráme se 
+			o přírodní památku U Branického pivovaru, zaštiťujeme volnočasové 
+			<a href="/brontosaurus/kluby/">klubové večery</a>, pořádáme víkendovky aj. </p>
 		<p>
-			Naše akce jsou otevřené všem, kdo má zájem zažít něco nevšedního a přitom také přiložit ruku k dílu,
-			nemusíš být členem. Většinu akcí cílíme na středoškoláky a vysokoškoláky, tedy na věkovou skupinu
-			od 15 do 26 let, ale vítán je každý, kdo je mladý duchem a rád se vrhne s ostatními do všemožných her.
-		</p>
-		<p>Brontosaurus obývá mnoho míst po celé České republice. Tento web se zabývá jeho aktivitami v Praze a okolí.</p>
-		<p>
-			Prohlédni si <a href="https://www.facebook.com/brontik.praha/events">naše akce</a>, a pokud tě něco zaujme,
-			neváhej a přijď. Nové tváře vídáme na každé akci, neměj proto obavu, přihlas se na konkrétní akci
-			a přijď nás poznat, sám nebo klidně i s kamarády. Těšíme se!
+			<a href="https://www.facebook.com/brontik.praha/events">Naše akce</a> jsou otevřené všem - nemusíš být
+			členem, stačí mít zájem zažít něco nevšedního a někdy také ochotu přiložit ruku k dílu. Většinu akcí
+			cílíme na středoškoláky a vysokoškoláky, ale vítán je každý, kdo je alespoň mladý duchem a rád se
+			vrhne s ostatními do všemožných her.
 		</p>
 	</section>
 	<section id="uvod-right">
