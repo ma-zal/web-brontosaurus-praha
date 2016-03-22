@@ -166,12 +166,12 @@ input, textarea {
 #main-content h2,
 #main-content h3 {
 	color: #ffba02;
-	font-weight: 300;
+	font-weight: 400;
 }
 .komentarNadpisu {
 	color: #ffba02;
 	font-size: large;
-	font-weight: 300;
+	font-weight: 400;
 	margin-top: -20px;
 	margin-bottom: 30px;
 }
