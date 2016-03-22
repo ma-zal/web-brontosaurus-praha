@@ -1,7 +1,7 @@
 		<div class="clear-hidden">&nbsp;</div>
 	</div>
 	<footer id="footer">
-		&copy; <a href="http://praha.brontosaurus.cz/">Hnutí Brontosaurus - Regionální centum Praha</a><br />
+		&copy; <a href="http://praha.brontosaurus.cz/">Regionální centum Hnutí Brontosaurus Praha</a><br />
 		code &copy; <a href="http://www.zal.cz" target="_blank">Martin Žaloudek</a>
 	</footer>
 	</div>
