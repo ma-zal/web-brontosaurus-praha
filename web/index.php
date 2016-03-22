@@ -12,20 +12,21 @@
 	<section>
 		<h1>Brontosaurus v Praze, aneb Kdo jsme</h1>
 		<p>
-			<a href="/brontosaurus/kdo-jsme/">Hnutí Brontosaurus</a> je celorepubliková dobrovolnická organizace. 
-			V Praze jej zastupuje vedle několika základních článků (
-			<a href="/brontosaurus/kdo-jsme/rozruch/">Rozruch</a>,
-			<a href="/brontosaurus/kdo-jsme/sup/">SUP</a> a další) také jedno brontosauří 
-			regionální centrum, a to jsme my. V rámci naší činnosti pořádáme každoroční večerní 
-			<a href="/brontosaurus/organizatorsky-kurz/">organizátorský kurz</a>, zajišťujeme 
-			<a href="/brontosaurus/kdo-jsme/brdo/">Brontosauří dětský oddíl (BRĎO)</a>, staráme se 
-			o přírodní památku U Branického pivovaru, zaštiťujeme volnočasové 
-			<a href="/brontosaurus/kluby/">klubové večery</a>, pořádáme víkendovky aj. </p>
+			<a href="/kdo-jsme/">Hnutí Brontosaurus</a> je celorepubliková dobrovolnická organizace.
+			V Praze jej zastupuje vedle několika
+			<a href="http://www.brontosaurus.cz/struktura-a-organizace/zakladni-clanky" target="_blank" title="Co je Základní článek Hnutí Brontosaurus">základních článků</a>
+			(<a href="/kdo-jsme/rozruch/">Rozruch</a>,
+			<a href="/kdo-jsme/sup/">SUP</a> a další) také jedno brontosauří
+			regionální centrum, a&nbsp;to jsme my. V&nbsp;rámci naší činnosti pořádáme každoroční večerní
+			<a href="/organizatorsky-kurz/">organizátorský kurz</a>, zajišťujeme
+			<a href="/kdo-jsme/brdo/">Brontosauří dětský oddíl (BRĎO)</a>, staráme se
+			o&nbsp;přírodní památku U&nbsp;Branického pivovaru, zaštiťujeme volnočasové
+			<a href="/kluby/">klubové večery</a>, pořádáme víkendovky, aj.</p>
 		<p>
 			<a href="https://www.facebook.com/brontik.praha/events">Naše akce</a> jsou otevřené všem - nemusíš být
-			členem, stačí mít zájem zažít něco nevšedního a někdy také ochotu přiložit ruku k dílu. Většinu akcí
+			členem, stačí mít zájem zažít něco nevšedního a&nbsp;někdy také ochotu přiložit ruku k dílu. Většinu akcí
 			cílíme na středoškoláky a vysokoškoláky, ale vítán je každý, kdo je alespoň mladý duchem a rád se
-			vrhne s ostatními do všemožných her.
+			vrhne s&nbsp;ostatními do všemožných her.
 		</p>
 	</section>
 	<section id="uvod-right">

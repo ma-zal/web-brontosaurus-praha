@@ -12,8 +12,6 @@
         if (!empty($GLOBALS[CONFIG]['header']['keywords']))
             echo '	<meta xml:lang="cs" name="keywords" content="'.htmlspecialchars($GLOBALS[CONFIG]['header']['keywords']).'" />'.NN;
     ?>
-	<!-- ColorBox -->
-	<link rel="stylesheet" href="/brontosaurus/css/colorbox.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="/brontosaurus/css/main.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
