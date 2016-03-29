@@ -28,37 +28,37 @@
 
 		'kdo-jsme' => array(
 			'nazev' => 'Kdo jsme',
-			'url' =>   '/brontosaurus/',
+			'url' =>   '/',
 			'ikona' => 'users',
 			'vzdyOtevreno' => true,
 
 			'podmenu' => array(
 				'brontosaurus' => array(
 					'nazev' => 'Hnutí Brontosaurus',
-					'url' =>   '/brontosaurus/kdo-jsme/'
+					'url' =>   '/kdo-jsme/'
 				),
 				'rozruch' => array(
 					'nazev' => "Rozruch",
-					'url' =>   '/brontosaurus/kdo-jsme/rozruch/'
+					'url' =>   '/kdo-jsme/rozruch/'
 				),
 				'sup' => array(
 					'nazev' => "Sup",
-					'url' =>   '/brontosaurus/kdo-jsme/sup/'
+					'url' =>   '/kdo-jsme/sup/'
 				),
 				'zemechvaly' => array(
 					'nazev' => "Zeměchvály",
-					'url' =>   '/brontosaurus/kdo-jsme/zemechvaly/'
+					'url' =>   '/kdo-jsme/zemechvaly/'
 				),
 				'brdo' => array(
 					'nazev' => "BRĎO - dětský oddíl",
-					'url' =>   '/brontosaurus/kdo-jsme/brdo/'
+					'url' =>   '/kdo-jsme/brdo/'
 				),
 			)
 		),
 
 		'kluby' => array(
 			'nazev' => 'Klubové večery',
-			'url' =>   '/brontosaurus/kluby/',
+			'url' =>   '/kluby/',
 			'ikona' => 'user-secret',
 //			'vzdyOtevreno' => true,
 
@@ -67,44 +67,44 @@
 
 		'organizatorsky-kurz' => array(
 			'nazev' => 'Kurz pro organizátory',
-			'url' =>   '/brontosaurus/organizatorsky-kurz/',
+			'url' =>   '/organizatorsky-kurz/',
 			'ikona' => 'map-pin',
 
 //			'podmenu' => array(
 //				'o-kurzu' => array(
 //					'nazev' => 'O kurzu',
-//					'url' =>   '/brontosaurus/organizatorsky-kurz/'
+//					'url' =>   '/organizatorsky-kurz/'
 //				),
 //			)
 		),
 
 		'starame-se' => array(
 			'nazev' => 'Staráme se o ...',
-			'url' =>   '/brontosaurus/starame-se/',
+			'url' =>   '/starame-se/',
 			'ikona' => 'leaf',
 			'vzdyOtevreno' => true,
 
 			'podmenu' => array(
 				'ekofor' => array(
 					'nazev' => 'Ekofór',
-					'url' =>   '/brontosaurus/starame-se/ekofor/'
+					'url' =>   '/starame-se/ekofor/'
 				)
 			)
 		),
 
 		'kontakty' => array(
 			'nazev' => 'Kde nás najdeš',
-			'url' =>   '/brontosaurus/kontakty/klubovna/',
+			'url' =>   '/kontakty/klubovna/',
 			'ikona' => 'map-pin',
 
 			'podmenu' => array(
 				'klubovna' => array(
 					'nazev' => 'Klubovna',
-					'url' =>   '/brontosaurus/kontakty/klubovna/'
+					'url' =>   '/kontakty/klubovna/'
 				),
 				'adresar' => array(
 					'nazev' => 'Adresář kontaktů',
-					'url' =>   '/brontosaurus/kontakty/adresar/'
+					'url' =>   '/kontakty/adresar/'
 				),
 				'novinky-emailem' => array(
 					'nazev' => 'Novinky e-mailem',

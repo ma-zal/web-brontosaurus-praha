@@ -4,18 +4,18 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php
+<?php
         echo '	<title>'.htmlspecialchars($GLOBALS[CONFIG]['header']['title']).'</title>'.NN;
 
         if (!empty($GLOBALS[CONFIG]['header']['description']))
             echo '	<meta xml:lang="cs" name="description" content="'.htmlspecialchars($GLOBALS[CONFIG]['header']['description']).'" />'.NN;
         if (!empty($GLOBALS[CONFIG]['header']['keywords']))
             echo '	<meta xml:lang="cs" name="keywords" content="'.htmlspecialchars($GLOBALS[CONFIG]['header']['keywords']).'" />'.NN;
-    ?>
-	<link rel="stylesheet" type="text/css" href="/brontosaurus/css/main.css" />
+?>
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
-	<?php
+<?php
 	echo $GLOBALS[CONFIG]['header']['others'];
 	echo '</head>'.NN;
 	echo '<body' 
@@ -33,7 +33,7 @@
 	<header>
 		<div id="layout-top-space"></div>
 		<div id="layout-top">
-			<a href="/brontosaurus/"><span>Hnutí Brontosaurus Praha</span></a>
+			<a href="/"><span>Hnutí Brontosaurus Praha</span></a>
 		</div>
 	</header>
 	<div id="main-container">

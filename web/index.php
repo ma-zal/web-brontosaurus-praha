@@ -1,12 +1,11 @@
 <?php
 	require_once 'config/global.php';
 	require_once 'engine/all.php';
+	@include 'config/credentials.php';
 
 	$GLOBALS[CONFIG]['header']['title'] = 'Úvod - ' . $GLOBALS[CONFIG]['header']['title'] ;
 	$GLOBALS[CONFIG]['leftMenu']['kdo-jsme']['aktivni'] = true;
 	require_once 'config/html_top.php';
-
-	const FCB_ACCESS_TOKEN = '{{FCB_ACCESS_TOKEN}}';
 
 ?>
 	<section>
