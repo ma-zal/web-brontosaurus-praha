@@ -70,8 +70,57 @@ require_once __DIR__ . '/../../config/html_top.php';
 	</section>
 
 	<section class="brdo-sekce" id="brdo-zapisky">
+
 		<h2>Fotogalerie</h2>
-		<p>Fotky z našich výletů si můžete prohlédnout ve <i class="fa fa-picture-o"></i> <a href="http://brdopraha.rajce.idnes.cz/" target="_blank">fotogalerii BRĎO Praha</a>.</p>
+
+		<h3>Rok 2016</h3>
+		<ul class="seznamGalerii">
+			<li>
+				<a href="https://goo.gl/photos/4AcQmZAwEBUwDbsn9" target="_blank">Výlet do ZOO Praha</a><br/>
+				<i class="fa fa-fw fa-calendar-o"></i> 2. dubna 2016
+			</li>
+			<li>
+				<a href="https://goo.gl/photos/rTGNhkWqg5uYA2aY7" target="_blank">Oddílová schůzka</a><br/>
+				<i class="fa fa-fw fa-calendar-o"></i> 16. března 2016
+			</li>
+			<li>
+				<a href="https://goo.gl/photos/AoKwxCpmReixx1nG7" target="_blank">Oddílová schůzka</a><br/>
+				<i class="fa fa-fw fa-calendar-o"></i> 3. února 2016
+			</li>
+			<li>
+				<a href="https://goo.gl/photos/Wts5M7bjtDgsG7vV8" target="_blank">Oddílová schůzka</a><br/>
+				<i class="fa fa-fw fa-calendar-o"></i> 20. ledna 2016
+			</li>
+		</ul>
+
+		<h3>Rok 2015 a starší</h3>
+		<ul class="seznamGalerii">
+			<li>
+				<a href="https://goo.gl/photos/tPfjXPWQSE6THk1U9" target="_blank">Oddílová schůzka</a><br/>
+				<i class="fa fa-fw fa-calendar-o"></i> 4. listopadu 2015
+			</li>
+			<li>
+				<a href="https://goo.gl/photos/aSBMkChs3cd3Wdp66" target="_blank">Oddílová schůzka</a><br/>
+				<i class="fa fa-fw fa-calendar-o"></i> 21. října 2015
+			</li>
+			<li>
+				<a href="https://goo.gl/photos/45LAHTcT5VDtz5Pq6" target="_blank">Oddílová schůzka</a><br/>
+				<i class="fa fa-fw fa-calendar-o"></i> 30. září 2015
+			</li>
+			<li>
+				<a href="https://goo.gl/photos/1to4xE9KVKvMNTSj7" target="_blank">Oddílová schůzka</a><br/>
+				<i class="fa fa-fw fa-calendar-o"></i> 23. září 2015
+			</li>
+			<li>
+				<a href="https://goo.gl/photos/GwxiMSXPHebTJDXP6" target="_blank">Oddílová schůzka</a><br/>
+				<i class="fa fa-fw fa-calendar-o"></i> 16. září 2015
+			</li>
+			<li>
+				<a href="http://brdopraha.rajce.idnes.cz/" target="_blank">Starší fotografie</a><br />
+				<i class="fa fa-fw fa-calendar-o"></i> 2013 - 2015
+			</li>
+		</ul>
+
 
 		<h2>Pár zapisků z akcí</h2>
 		<section>
