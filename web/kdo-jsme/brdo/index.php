@@ -197,18 +197,6 @@ require_once __DIR__ . '/../../config/html_top.php';
 		</section>
 		<div class="clear">&nbsp;</div>
 
-		<section>
-			<img class="img-left" src="null" width="320" height="480" alt="Petra dodá potrtét později :)" />
-			<br /><br />
-			<h3>Petra</h3>
-			<p>Více než osmiletá zkušenost z občanského sdružení Halahoj v Třebíči z táborů pro děti i mládež, víkendových akcí,
-				adapťáků a teambuildingů, ale teprve vysokoškolské studium ji zaválo k akcím Hnutí Brontosaurus.
-				Mezi její záliby patří aktivní hudební interpretace, kresba a tvorba, fotografování i rekreační sport.
-				Studuje předškolní pedagogiku a pedagogiku jednooborovou na UK v Praze. Je instruktorem snowboardingu,
-				lyžování a cvičitelem plavání. Lektoruje zobcovou a příčnou flétnu.
-			</p>
-		</section>
-		<div class="clear">&nbsp;</div>
 	</section>
 
 	<section class="brdo-sekce" id="brdo-prihlaska">
