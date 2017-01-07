@@ -34,3 +34,31 @@ var showSekce = function(id) {
 		}
 	});
 };
+
+
+function brdoFormValidation() {
+	var errors = [];
+	if (!document.getElementById('dite-jmeno').value) {
+		errors.push("Musíte vyplnit jméno dítěte.");
+	}
+	if (!document.getElementById('dite-narozeni').value) {
+		errors.push("Musíte vyplnit datum narození dítěte.");
+	}
+	if (!document.getElementById('dite-zdravotni-stav').value) {
+		errors.push("Musíte vyplnit zdravotní stav dítěte.");
+	}
+	if (!document.getElementById('zastupce-jmeno').value) {
+		errors.push("Musíte vyplnit jméno zákonného zástupce.");
+	}
+	if (!document.getElementById('zastupce-email').value) {
+		errors.push("Musíte vyplnit kontaktní email.");
+	}
+	if (!document.getElementById('zastupce-telefon').value) {
+		errors.push("Musíte vyplnit kontaktní telefon.");
+	}
+
+	if (errors.length > 0) {
+		alert(errors.join("\n"));
+	}
+	return (errors.length === 0);
+}

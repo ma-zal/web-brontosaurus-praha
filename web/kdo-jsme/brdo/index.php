@@ -39,7 +39,7 @@ require_once __DIR__ . '/../../config/html_top.php';
 		<p>Centra Mateřídouška mohou též zdarna využít rodiče nebo sourozenci v době schůzky BRĎat. Je zde k dispozici přichystaná hernička, kuchyň a zahrádka.</p>
 
 		<h2>Pro koho je oddíl určen</h2>
-		<p>Jsou vítané všechny děti, které jsou nadšené, zvídavé a rády si hrají. Především přijímáme děti ve věku od 5 do 7let.</>
+		<p>Jsou vítané všechny děti, které jsou nadšené, zvídavé a rády si hrají. Především přijímáme děti ve věku od 5 do 7let.</p>
 	</section>
 
 	<section class="brdo-sekce" id="brdo-schuzka">
@@ -60,7 +60,7 @@ require_once __DIR__ . '/../../config/html_top.php';
 		<h2>Výlety pro rodiče s dětmi</h2>
 		<p>Naší snahou je zapojit nejenom děti, ale i rodiče. Rodinná zábava propojená procházkou s programem je toho záměrem. Zúčastnit se mohou i rodiny, jejichž děti nenavštěvují oddíl, přesto je naše myšlenka a záměr oslovily.</p>
 		<p>Klasický výlet probíhá o víkendu. Místo srazu dáváme vědět dopředu - často se jedná o přírodní rezervaci a nebo přírodní památku v Praze a scházíme se okolo desáté hodiny.
-		<p>Výlet trvá pět až šest hodin. Pro děti jsou připravené nejrůznější úkoly, hry, tvoření, zajímavost a na konci malý poklad pro každé dítko.</>
+		<p>Výlet trvá pět až šest hodin. Pro děti jsou připravené nejrůznější úkoly, hry, tvoření, zajímavost a na konci malý poklad pro každé dítko.</p>
 		<p>Náklady se pohybují v okolo 50Kč/rodina a jsou využity na materiál a zdravé sladkosti do pokladu.</p>
 
 		<ul class="ilustracniFotoSeznam">
@@ -212,31 +212,31 @@ require_once __DIR__ . '/../../config/html_top.php';
 		<p>Do oddílu se lze přihlásit během celého roku. Cena na jedno pololetí je 500Kč. Jde o náklady spojené s využíváním prostor a na materiál použitý při dílničkách.</p>
 		<p>Příspěvek vybíráme až po pár oddílových schůzkách, kdy si vaše dítko uvědomí jestli se mu u nás líbí a chce pravidelně docházet.</p>
 
-		<form method="post" action="prihlaska-odesilani.php">
+		<form method="post" action="prihlaska-odesilani.php" onsubmit="return brdoFormValidation();">
 			<div class="form-item">
-				<label for="dite-jmeno">Jméno dítěte</label>
+				<label for="dite-jmeno">Jméno dítěte (*)</label>
 				<input type="text" name="dite-jmeno" id="dite-jmeno" class="size-50" />
 			</div>
 			<div class="form-item">
-				<label for="dite-narozeni">Datum narození dítěte</label>
+				<label for="dite-narozeni">Datum narození dítěte (*)</label>
 				<input type="text" name="dite-narozeni" id="dite-narozeni" class="size-50" />
 			</div>
 			<div class="form-item">
-				<label for="dite-zdravotni-stav">Zdravotní omezení dítěte a jiné věci, které by vedoucí měli vědět</label>
+				<label for="dite-zdravotni-stav">Zdravotní omezení dítěte a jiné věci, které by vedoucí měli vědět (*)</label>
 				<textarea name="dite-zdravotni-stav" id="dite-zdravotni-stav" rows="2"></textarea>
 			</div>
 			<br />
 
 			<div class="form-item">
-				<label for="zastupce-jmeno">Jméno zákonného zástupce</label>
+				<label for="zastupce-jmeno">Jméno zákonného zástupce (*)</label>
 				<input type="text" name="zastupce-jmeno" id="zastupce-jmeno" class="size-50" />
 			</div>
 			<div class="form-item">
-				<label for="zastupce-email">Kontaktní e-mail</label>
+				<label for="zastupce-email">Kontaktní e-mail (*)</label>
 				<input type="text" name="zastupce-email" id="zastupce-email" class="size-50" />
 			</div>
 			<div class="form-item">
-				<label for="zastupce-email">Kontaktní telefon</label>
+				<label for="zastupce-telefon">Kontaktní telefon (*)</label>
 				<input type="text" name="zastupce-telefon" id="zastupce-telefon" class="size-50" />
 			</div>
 			<br />
@@ -245,6 +245,9 @@ require_once __DIR__ . '/../../config/html_top.php';
 				<label for="poznamky">Další poznámky</label>
 				<textarea name="poznamky" id="poznamky" rows="2"></textarea>
 			</div>
+            <div>
+                <em>(*) Povinná pole</em>
+            </div>
 			<div class="text-right">
 				<button type="submit" class="btn"><i class="fa fa-check"></i> Odeslat přihlášku</button>
 			</div>

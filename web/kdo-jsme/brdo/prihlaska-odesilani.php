@@ -1,17 +1,49 @@
 <?php
 require_once '../../engine/class.email.php';
 
-$emailHtml = '<p>Na webu BRĎO byla vyplněna přihláška:</p><br />';
 
+// Blokovat spam roboty vkladajici odkazy
 foreach ($_POST as $col => $value) {
-    $emailHtml .= '<html><head><meta charset="utf-8" /></head><body>';
+    if (preg_match('/(http(s?):\/\/)/i', $value)) {
+        echo 'Nektere polozky obsahuji odkazy, ktere nejsou povolene. Formular zamitnut.';
+        die();
+    }
+}
+
+
+// Kontrola vyplnenych poli
+if (empty($_POST['dite-jmeno'])) {
+    echo 'Neni vyplnene jmeno ditete. Formular nebyl odeslan. <a href="javascript:history.go(-1);">ZPET</a>';
+    die();
+}
+if (empty($_POST['dite-narozeni'])) {
+    echo 'Neni vyplnene datum narozeni. Formular nebyl odeslan. <a href="javascript:history.go(-1);">ZPET</a>';
+    die();
+}
+if (empty($_POST['zastupce-jmeno'])) {
+    echo 'Neni vyplnene jmeno zastupce. Formular nebyl odeslan. <a href="javascript:history.go(-1);">ZPET</a>';
+    die();
+}
+if (empty($_POST['zastupce-email'])) {
+    echo 'Neni vyplnen kontaktni email. Formular nebyl odeslan. <a href="javascript:history.go(-1);">ZPET</a>';
+    die();
+}
+if (empty($_POST['zastupce-telefon'])) {
+    echo 'Neni vyplnen kontaktni telefon. Formular nebyl odeslan. <a href="javascript:history.go(-1);">ZPET</a>';
+    die();
+}
+
+
+$emailHtml = '<html><head><meta charset="utf-8" /></head><body>';
+$emailHtml .= '<p>Na webu BRĎO byla vyplněna přihláška:</p><br />';
+foreach ($_POST as $col => $value) {
     $emailHtml .= '<p>';
     $emailHtml .= '<strong>' . $col . '</strong><br />';
     $emailHtml .= htmlspecialchars($value);
     $emailHtml .= '<br />';
     $emailHtml .= '</p>';
-    $emailHtml .= '</body></html>';
 }
+$emailHtml .= '</body></html>';
 
 //novy mail
 $mail = new Email("utf-8");
