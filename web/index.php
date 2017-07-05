@@ -8,6 +8,14 @@
 	require_once 'config/html_top.php';
 
 ?>
+    <section class="panel-dulezite">
+        <h4>Přestěhovali jsme se!</h4>
+        <p>
+            Nyní najdeš <a href="kontakty/klubovna/">naši Pražskou klubovnu v Malířské 6, Praha 7 - Bubeneč</a> (poblíž Letenského náměstí).
+        </p>
+    </section>
+
+
 	<section>
 		<h1>Brontosaurus v Praze, aneb Kdo jsme</h1>
 		<p>

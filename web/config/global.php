@@ -93,7 +93,7 @@
 		),
 
 		'kontakty' => array(
-			'nazev' => 'Kde nás najdeš',
+			'nazev' => 'Kontakty',
 			'url' =>   '/kontakty/klubovna/',
 			'ikona' => 'map-pin',
 

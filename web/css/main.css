@@ -293,3 +293,16 @@ img[src="null"] {
 	font-weight: bold;
 	margin: 0 0 0.5em;
 }
+
+.panel-dulezite {
+	border-top: 10px solid #ffba02;
+	border-bottom: 10px solid #ffba02;
+	border-radius: 5px;
+	padding: 10px 40px;
+	background: #fafafa;
+}
+.panel-dulezite h4 {
+	color: #ffba02;
+	font-size: 160%;
+	margin: 0.7em 0;
+}
