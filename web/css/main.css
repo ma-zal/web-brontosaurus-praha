@@ -243,6 +243,39 @@ input, textarea {
 ul.seznamGalerii a { font-weight: bold; }
 ul.seznamGalerii li { margin-bottom: 0.8em; }
 
+
+/* Brdo Facebook Photo Gallery */
+.albums {
+	margin-right: -20px;
+}
+.albums article {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.albums a {
+	display: block;
+	text-decoration: none;
+	width: 270px;
+	height: 270px;
+}
+.albums a:hover .album-cover-image {
+	border-color: #40638b;
+}
+.albums a .album-cover-image {
+	background-size: cover !important;
+	height: 180px; width: 180px;
+	margin: 0 auto;
+	border: 3px solid white;
+}
+.albums .album-name,
+.albums .album-date {
+	color: #666;
+}
+
+
 form { background: #f6f6f6; padding: 20px; }
 form .form-item label { display:block; font-weight: bold; margin-bottom: 3px; }
 form .form-item input, form .form-item textarea { display:block; width: 100%; box-sizing: border-box; }

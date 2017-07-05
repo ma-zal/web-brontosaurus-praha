@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . '/../../config/global.php';
 require_once __DIR__ . '/../../engine/all.php';
+@include __DIR__ . '/../../config/credentials.php';
 
 $GLOBALS[CONFIG]['header']['title'] = 'BRontosauří Dětský Oddíl - ' . $GLOBALS[CONFIG]['header']['title'] ;
 $GLOBALS[CONFIG]['leftMenu']['kdo-jsme']['aktivni'] = true;
@@ -71,9 +72,60 @@ require_once __DIR__ . '/../../config/html_top.php';
 
 	<section class="brdo-sekce" id="brdo-zapisky">
 
-		<h2>Fotogalerie</h2>
+		<h2>Foto z našich Brďo akcí</h2>
 
-		<h3>Rok 2016</h3>
+<?php
+$eventsApiUrl = 'https://graph.facebook.com/v2.8/BrdoPraha/albums?access_token=' . FCB_ACCESS_TOKEN .  '&fields=cover_photo,count,backdated_time,name,link,picture'; // description,backdated_time_granularity
+$fcbApiResult = @file_get_contents($eventsApiUrl);
+$albumExceptions = Array('Timeline Photos', 'Mobile Uploads', 'Profile Pictures', 'Cover Photos');
+if ($fcbApiResult) {
+    $albums = json_decode($fcbApiResult, true);
+    $albums = $albums['data'];
+    echo '<div class="albums">';
+    foreach ($albums as $album) {
+        if (in_array($album['name'], $albumExceptions) || $album['count'] === 0) {
+            continue;
+        }
+
+        $backdatedTime = !empty($album['backdated_time']) ? DateTime::createFromFormat('Y-m-d\TH:i:sT', $album['backdated_time']) : null;
+        echo '<article>';
+        echo '<a target="_blank" href="' . htmlspecialchars($album['link']) . '">';
+
+        // Date
+        echo '<div class="album-date">';
+        if ($backdatedTime) {
+            echo '<i class="fa fa-fw fa-calendar-o"></i> ' . $backdatedTime->format('j. ') . getCzMonthString($backdatedTime->format('n')) . $backdatedTime->format(' Y');
+        } else {
+            echo '&nbsp;';
+        }
+        echo '</div>';
+
+        // Cover image
+        if (!empty($album['picture']['data']['url'])) {
+            echo '<div class="album-cover-image" style="background: url(' . htmlspecialchars($album['picture']['data']['url']) . ');"></div>';
+        }
+
+        // Name
+        echo '<div class="album-name">';
+        echo htmlspecialchars($album['name']);
+        echo '</div>';
+
+        echo '</a>';
+        echo '</article>';
+    }
+    echo '</div>';
+} else {
+    echo '<div class="error-box"><small>';
+    echo 	'<h6>Promiň, něco se rozbilo!</h6>';
+    echo 	'<p>';
+    echo 		'Zatím se podívej do ';
+    echo 		'<a target="_blank" href="https://www.facebook.com/pg/BrdoPraha/photos/?tab=albums">našich fotoalb na Facebooku</a> přímo.';
+    echo 	'</p>';
+    echo '</small></div>';
+}
+?>
+
+		<h3>Starši fotografie</h3>
 		<ul class="seznamGalerii">
 			<li>
 				<a href="https://goo.gl/photos/4AcQmZAwEBUwDbsn9" target="_blank">Výlet do ZOO Praha</a><br/>
@@ -93,7 +145,7 @@ require_once __DIR__ . '/../../config/html_top.php';
 			</li>
 		</ul>
 
-		<h3>Rok 2015 a starší</h3>
+		<h3>Rok 2015 a starší (ke smazání)</h3>
 		<ul class="seznamGalerii">
 			<li>
 				<a href="https://goo.gl/photos/tPfjXPWQSE6THk1U9" target="_blank">Oddílová schůzka</a><br/>
@@ -265,3 +317,20 @@ require_once __DIR__ . '/../../config/html_top.php';
 <?php
 $GLOBALS[CONFIG]['header']['otherScripts'] .= '<script src="js/brdo.js" type="text/javascript"></script>';
 require_once __DIR__ . '/../../config/html_bottom.php';
+
+function getCzMonthString($monthNumber) {
+    switch ($monthNumber) {
+        case 1: return 'ledna';
+        case 2: return 'února';
+        case 3: return 'března';
+        case 4: return 'dubna';
+        case 5: return 'května';
+        case 6: return 'června';
+        case 7: return 'července';
+        case 8: return 'srpna';
+        case 9: return 'září';
+        case 10: return 'října';
+        case 11: return 'listopadu';
+        case 12: return 'prosince';
+    }
+}
