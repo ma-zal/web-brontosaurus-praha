@@ -26,29 +26,33 @@ require_once __DIR__ . '/../../config/html_top.php';
 	<section class="brdo-sekce" id="brdo-uvod">
 		<h2>Úvod o BRĎO</h2>
 		<img class="img-right" src="img/ilust-0210-v32.jpg" width="320" height="480" alt="Ilustrační foto" />
-		<p>BRontosauří Dětský Oddíl je zaměřen na ty nejmenší. Nabízíme alternativu klasických kroužků. Děti se v pravidelných týdenních schůzkách učí, jak funguje příroda, o možnostech jak ji chránit a vytvářejí si k ní pozitivní vztah. Do programu oddílovek zařazujeme hry rozvíjející jejich motorické i psychické schopnosti, včetně her na odreagování. S dětmi také oživujeme tradiční zvyky a rozvíjíme kreativitu výtvarnými dílničkami.</p>
+		<p>BRontosauří Dětský Oddíl je zaměřen na děti od předškoláků po třetí třídu. Nabízíme alternativu klasických kroužků. Děti se v pravidelných týdenních schůzkách učí, jak funguje příroda, o možnostech jak ji chránit a vytvářejí si k ní pozitivní vztah. Co nejvíce času na schůzkách trávíme venku. Do programu oddílovek zařazujeme hry rozvíjející jejich motorické i psychické schopnosti, včetně her na odreagování. S dětmi také oživujeme tradiční zvyky a rozvíjíme kreativitu výtvarnými dílničkami.</p>
 		<p>Při tvorbě programu dbáme na propojení prvků ekologické výchovy a zážitkové pedagogiky uzpůsobené dětem, jejich potřebám a zájmu. Zakládáme si na dobrovolnosti, děti do žádné činnosti nenutíme a necháváme jim prostor pro vlastní tvořivost a rozvoj osobnosti.</p>
-		<p>BRontosauří Dětský Oddíl v Praze byl založen v roce 2013 a od té doby pořádáme pravidelné oddílové schůzky a víkendové výlety pro rodiče s dětmi. Jsme tu pro děti, které chtějí zažít radost z objevování krás přírody, vyřádit se při hrách, poznat nové kamarády a naučit se chovat zodpovědně ke svému okolí.
+		<p>BRontosauří Dětský Oddíl v Praze byl založen v roce 2013 a od té doby pořádáme pravidelné oddílové schůzky a víkendové výpravy, občas i pro rodiče s dětmi. Jsme tu pro děti, které chtějí zažít radost z objevování krás přírody, vyřádit se při hrách, poznat nové kamarády a naučit se chovat zodpovědně ke svému okolí.
 		<p>V rámci našich pravidelných týdenních setkání si děti formou her a zábavných aktivit osvojují nové dovednosti a schopnosti, při nichž se vzájemně seznamují, učí spolupráci a souznění s přírodou.</p>
 
 		<img class="img-left" src="img/ilust-0215-v32.jpg" width="320" height="480" alt="Ilustrační foto" />
 		<h2>Kdy a kde se scházíme</h2>
-		<p>Scházíme se od poloviny října po zbytek celého školního roku pravidelně každou středu v 16:00. Společně pak trávíme zhruba hodinu půl.</p>
-		<p>Zázemí nám poskytuje ekocentrum <a href="http://www.toulcuvdvur.cz/" target="_blank">Toulcův Dvůr</a> v Praze Hostivaři, kde hojně využíváme jeho louku, mokřad.
-			V případě nepříznivého počasí využijeme rodinné centrum Mateřídouška.</p>
-		<p>Centra Mateřídouška mohou též zdarna využít rodiče nebo sourozenci v době schůzky BRĎat. Je zde k dispozici přichystaná hernička, kuchyň a zahrádka.</p>
+		<p>V současnosti fungují dvě skupiny na Toulcově dvoře a zakládáme další na Letné</p>
+		
+		<p><strong>Toulcův dvůr</strong></p>
+		<p>Scházíme se od poloviny září po zbytek celého školního roku pravidelně každou středu v 16:00. Společně pak trávíme zhruba hodinu půl. Starší i mladší skupina se schází současně, ale program mají oddělený.</p>
+		<p>Zázemí nám poskytuje ekocentrum <a href="http://www.toulcuvdvur.cz/" target="_blank">Toulcův Dvůr</a> v Praze Hostivaři, kde hojně využíváme jeho sad a mokřad. V případě nepříznivého počasí a v zimě kvůli tmě využíváme rodinné centrum Mateřídouška. Je zde k dispozici hernička, kuchyň a zahrádka.</p>
 
+		<p><strong>Letná</strong></p>
+		<p>Od podzimu 2017 zakládáme druhou další BRĎo skupinu (pro první až třtí třídu) v naší nově zrekonstruované klubovně v Malířské ulici 6 na Letné. Scházet se budeme od poloviny září po zbytek celého školního roku pravidelně každé úterý v 16:00 do 17:30. V plánu je opět být co nejvíce venku, ve Stromovce, Letenských sadech nebo vnitrobloku Malířské.</p>
+		
 		<h2>Pro koho je oddíl určen</h2>
-		<p>Jsou vítané všechny děti, které jsou nadšené, zvídavé a rády si hrají. Především přijímáme děti ve věku od 5 do 7let.</p>
+		<p>Jsou vítané všechny děti, které jsou nadšené, zvídavé a rády si hrají. Přijímáme děti ve věku od 5 do 9 let (v současnosti budeme rádi především za staří, ve věku 7-9).</p>
 	</section>
 
 	<section class="brdo-sekce" id="brdo-schuzka">
 		<h2>Klasická oddílová schůzka</h2>
 		<p>Pokud neprší, scházíme se venku. Snažíme se co nejvíce času trávit na čerstvém vzduchu.</p>
-		<p>Každé setkání je jinak tématicky zaměřené. Snažíme se využívat prvků zážitkové pedagogiky a tak předávat dětem zajímavé informace zábavnou formou, především výběrem vhodných her a názorných ukázek s přihlédnutím na jejich věk. Letos mezi tématy se objevila veverka, žába, ježek, třídění odpadů až po vánoční dílničky, kdy jsme vytvářeli svícen, nepečené cukroví nebo lampion.</p>
-		<p>Klademe důraz i na vlastní tvorbu, máme nachystanou dílničku, jejichž výtvory si děti na konci berou zpravidla hned domů.</p>
+		<p>Každé setkání je jinak tématicky zaměřené, ale každý rok se snažíme mít provázaný nějakou celoroční hrou. Zatím jsme absolvovali Hobita a Staré pověsti české. Snažíme se využívat prvků zážitkové pedagogiky a tak předávat dětem zajímavé informace zábavnou formou, především výběrem vhodných her a názorných ukázek s přihlédnutím na jejich věk. Mezi tématy se objevila veverka, žába, ježek, ptáci, rostliny v okolí, třídění odpadů, výroba loděk, pečení buchet až po vánoční dílničky, kdy jsme vytvářeli svícen, nepečené cukroví nebo lampion.</p>
+		
 		<p>Všechny aktivity jsou založené na dobrovolnosti. Děti do žádné činnosti nenutíme a zakládáme si na pozitivní motivaci.</p>
-		<p>Děti jsou po celou dobu vedené dvěma zkušenými organizátory z Hnutí Brontosaurus.</p>
+		<p>Děti jsou po celou dobu vedené jedním až dvěma zkušenými organizátory z Hnutí Brontosaurus.</p>
 
 		<ul class="ilustracniFotoSeznam">
 			<li class="img-responsive img-responsive-50"><img src="img/ilust-0237.jpg" alt="Ilustrační foto" /></li>
