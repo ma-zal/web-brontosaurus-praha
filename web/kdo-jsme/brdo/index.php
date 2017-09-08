@@ -167,19 +167,24 @@ require_once __DIR__ . '/../../config/html_top.php';
 		<div class="clear">&nbsp;</div>
 
 		<section>
-			<img class="img-left" src="null" width="320" height="480" alt="Maruška dodá portrét později :-)" />
+			<img class="img-right" src="img/rosta.jpg" width="320" height="480" alt="Portrét Rosťa" />
 			<br /><br />
-			<h2>Maruška</h2>
-			<p>Jsem dvaadvacetiletá studentka medicíny. Pocházím z jižní Moravy, kde jsem se poprvé setkala s BRĎO.
-				Členkou Hnutí Brontosaurus jsem od svých deseti let, kdy jsem navštěvovala v naší vesnici dětský oddíl (ZČ HB BRĎO Vlkani).
-				Postupně jsem se v šestnácti stala instruktorkou a vedoucí.
-				Příležitostně ráda sportuji a užívám si jakoukoli hudbu ať už pasivně či aktivně. Mým nejoblíbenějším nástrojem je klavír.
+			<h2>Rosťa</h2>
+			<p>Organizoval už více jak 20 táborů a 50 víkendovek - některé povedené, některé méně. Ale dokonalá akce stále ne a ne přijít, takže to zkouší dál. Kromě své rodiny má rád Brontosaura, hrady a zámky, složité hry, sladkosti, cestování pěšky a na lodi, irský tanec, počítače a akvarijní rybičky. </p>
+			<p>V současné době především vede pražský brontosauří dětský oddíl - BRĎO a je nadšeným amatérským ornitologem.</p> 
+			<p> Má za sebou několikaleté vedení pražského organizátorského kurzu, během něhož mu pod rukama prošlo nemalé množství budoucích organizátorů včetně současného předsedy Hnutí Brontosaura a nebo nynějších organizátorů letošního kurzu. </p>
+                       
+        <p>Je konzultantem Sekce vzdělávání Hnutí Brontosaurus.</p>
 			</p>
 		</section>
 		<div class="clear">&nbsp;</div>
 
 <!--		
-		<section>
+	
+<img class="img-left" src="null" width="320" height="480" alt="Rosťa dodá portrét později :-)" />
+			
+
+<section>
 			<img class="img-right" src="img/org-hanka-full.jpg" width="320" height="480" alt="Portrét Hanka" />
 			<br /><br />
 			<h2>Hanka</h2>
