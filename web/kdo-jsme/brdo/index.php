@@ -17,7 +17,7 @@ require_once __DIR__ . '/../../config/html_top.php';
 	<ul class="nav" id="brdo-menu">
 		<li><a href="#brdo-uvod">Úvod o BRĎO</a></li>
 		<li><a href="#brdo-schuzka">Klasická oddílová schůzka</a></li>
-		<li><a href="#brdo-vylety">Výlety pro rodiče s dětmi</a></li>
+		<li><a href="#brdo-vylety">Výpravy</a></li>
 		<li><a href="#brdo-zapisky">Fotografie a pár zapisků z akcí</a></li>
 		<li><a href="#brdo-organizatori">Organizátorský tým</a></li>
 		<li><a href="#brdo-prihlaska">Kontakt a přihláška</a></li>
@@ -61,12 +61,10 @@ require_once __DIR__ . '/../../config/html_top.php';
 	</section>
 
 	<section class="brdo-sekce" id="brdo-vylety">
-		<h2>Výlety pro rodiče s dětmi</h2>
-		<p>Naší snahou je zapojit nejenom děti, ale i rodiče. Rodinná zábava propojená procházkou s programem je toho záměrem. Zúčastnit se mohou i rodiny, jejichž děti nenavštěvují oddíl, přesto je naše myšlenka a záměr oslovily.</p>
-		<p>Klasický výlet probíhá o víkendu. Místo srazu dáváme vědět dopředu - často se jedná o přírodní rezervaci a nebo přírodní památku v Praze a scházíme se okolo desáté hodiny.
-		<p>Výlet trvá pět až šest hodin. Pro děti jsou připravené nejrůznější úkoly, hry, tvoření, zajímavost a na konci malý poklad pro každé dítko.</p>
-		<p>Náklady se pohybují v okolo 50Kč/rodina a jsou využity na materiál a zdravé sladkosti do pokladu.</p>
-
+		<h2>Výpravy</h2>
+		<p>Přibližně jednou měsíčně má oddíl jednodenní či vícedenní výpravu. Výpravy nejsou povinné a mají nejrůznější zaměření - poznávání nových míst a přírody, den archeologie, sjíždění řeky, setkání BRĎo oddílů, víkend na zámku nebo záchranné stanici pro hendikepované živočichy. Kromě klasických výprav mohou být některé určeny i pro rodiče s dětmi.
+		<p>Náklady se buď hradí přímo z půlročního poplatku, případně je na akci účastnický poplatek dle finanční náročnosti akce.</p>
+		
 		<ul class="ilustracniFotoSeznam">
 			<li class="img-responsive img-responsive-50"><img src="img/ilust-2485.jpg" alt="Ilustrační foto" /></li>
 			<li class="img-responsive img-responsive-50"><img src="img/ilust-2496.jpg" alt="Ilustrační foto" /></li>
@@ -77,6 +75,10 @@ require_once __DIR__ . '/../../config/html_top.php';
 
 		<h2>Fotogalerie</h2>
 
+		<h3>Rok 2017</h3>
+		
+		<p>NFotky z našich akcí najdete na <a href="http://brdopraha.rajce.idnes.cz/" target="_blank">http://brdopraha.rajce.idnes.cz/</a> nebo i na <a href="https://www.facebook.com/BrdoPraha" target="_blank">facebooku</a></p>
+		
 		<h3>Rok 2016</h3>
 		<ul class="seznamGalerii">
 			<li>
@@ -176,6 +178,7 @@ require_once __DIR__ . '/../../config/html_top.php';
 		</section>
 		<div class="clear">&nbsp;</div>
 
+<!--		
 		<section>
 			<img class="img-right" src="img/org-hanka-full.jpg" width="320" height="480" alt="Portrét Hanka" />
 			<br /><br />
@@ -200,20 +203,21 @@ require_once __DIR__ . '/../../config/html_top.php';
 			<p>Studuji 3.lékařskou fakultu, obor veřejné zdravotnictví a mou srdeční záležitostí je fyziologie. Podílím se na organizování různorodých akcí přes víkendovky, přímětské a klasické tábory až po sportovní akce. Nejčastěji ale jezdím jako zdravotník, počínaje šachovým táborem až po mezinárodní sportovní utkání. Na brontosauřích akcích především ráda vařím a naslouchám všem, co si ke mne najdou cestu do kuchyně. Ve volném čase nejraději fotografuji a objevuji svět. Občas vytáhnu luk, ráda si přečtu zajímavou knihu nebo upeču sladkou dobrotu.</p>
 		</section>
 		<div class="clear">&nbsp;</div>
-
+-->
+		
 	</section>
 
 	<section class="brdo-sekce" id="brdo-prihlaska">
 		<h2>Kontaktní osoba BRĎO Praha</h2>
 		<p>Máte-li jakýkoliv dotaz, ozvěte se nám, rádi Vám odpovíme a vše vysvětlíme.</p>
 		<p style="margin-left: 60px;">
-			<i class="fa fa-fw fa-user"></i> <strong>Marie Salajková</strong><br/>
-			<i class="fa fa-fw fa-phone"></i> <a href="tel:722641825">722 641 825</a><br >
+			<i class="fa fa-fw fa-user"></i> <strong>Rostislav Konůpka</strong><br/>
+			<i class="fa fa-fw fa-phone"></i> <a href="tel:722561150">722 561 150</a><br >
 			<i class="fa fa-fw fa-envelope-o"></i> <a href="mailto:brdo.praha@gmail.com">brdo.praha@gmail.com</a>
 		</p>
 
 		<h2>Přihláška a cena</h2>
-		<p>Do oddílu se lze přihlásit během celého roku. Cena na jedno pololetí je 500Kč. Jde o náklady spojené s využíváním prostor a na materiál použitý při dílničkách.</p>
+		<p>Do oddílu se lze přihlásit během celého roku. Cena na jedno pololetí je 500Kč. Jde o náklady spojené s využíváním prostor a na použitý materiál.</p>
 		<p>Příspěvek vybíráme až po pár oddílových schůzkách, kdy si vaše dítko uvědomí jestli se mu u nás líbí a chce pravidelně docházet.</p>
 
 		<form method="post" action="prihlaska-odesilani.php" onsubmit="return brdoFormValidation();">
