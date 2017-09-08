@@ -167,7 +167,7 @@ require_once __DIR__ . '/../../config/html_top.php';
 		<div class="clear">&nbsp;</div>
 
 		<section>
-			<img class="img-right" src="img/rosta.jpg" width="320" height="480" alt="Portrét Rosťa" />
+			<img class="img-left" src="null" width="320" height="480" alt="Rosťa dodá portrét později :-)" />
 			<br /><br />
 			<h2>Rosťa</h2>
 			<p>Organizoval už více jak 20 táborů a 50 víkendovek - některé povedené, některé méně. Ale dokonalá akce stále ne a ne přijít, takže to zkouší dál. Kromě své rodiny má rád Brontosaura, hrady a zámky, složité hry, sladkosti, cestování pěšky a na lodi, irský tanec, počítače a akvarijní rybičky. </p>
