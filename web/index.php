@@ -116,29 +116,20 @@
 	require_once 'config/html_bottom.php';
 ?>
 <script>
-	window.fbAsyncInit = function() {
-		FB.init({
-			appId      : '1639397193015205',
-			xfbml      : true,
-			version    : 'v2.5'
-		});
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '1639397193015205',
+            xfbml      : true,
+            version    : 'v2.10'
+        });
+        FB.AppEvents.logPageView();
+    };
 
-		FB.api(
-			"/brontik.praha/events",
-			function (response) {
-				if (response && !response.error) {
-					/* handle the result */
-				}
-				console.log(response);
-			}
-		);
-	};
-
-	(function(d, s, id){
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) {return;}
-		js = d.createElement(s); js.id = id;
-		js.src = "//connect.facebook.net/cs_CZ/sdk.js";
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/cs_CZ/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 </script>

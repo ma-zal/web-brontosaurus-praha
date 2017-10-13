@@ -1,0 +1,3 @@
+RequestHeader set X-HTTPS 1
+Header set Referrer-Policy "no-referrer-when-downgrade"
+#Header set Referrer-Policy "same-origin"
