@@ -3,13 +3,20 @@ require_once __DIR__ . '/../../config/global.php';
 require_once __DIR__ . '/../../engine/all.php';
 
 $GLOBALS[CONFIG]['header']['title'] = 'Klubovna - ' . $GLOBALS[CONFIG]['header']['title'] ;
-$GLOBALS[CONFIG]['leftMenu']['kontakty']['aktivni'] = true;
-$GLOBALS[CONFIG]['leftMenu']['kontakty']['podmenu']['klubovna']['aktivni'] = true;
+$GLOBALS[CONFIG]['leftMenu']['klubovna']['aktivni'] = true;
 
 require_once __DIR__ . '/../../config/html_top.php';
 ?>
 
-    <h1>Kde najdeš naši klubovnu?</h1>
+    <h1>Pražská klubovna Hnutí Brontosaurus</h1>
+
+    <ul class="ilustracniFotoSeznam">
+        <li class="img-responsive img-responsive-40"><img src="img/klubovna-deskovky.jpg" /></li>
+        <li class="img-responsive img-responsive-60"><img src="img/klubovna-vecirek.jpg" /></li>
+    </ul>
+
+
+    <h2>Kde nás najdeš</h2>
 
     <div class="vcard">
         <div class="title"><strong>Klubovna Hnutí Brontosaurus Praha</strong></div>
@@ -22,12 +29,19 @@ require_once __DIR__ . '/../../config/html_top.php';
         </div>
     </div>
 
+
+    <h2>Jak se k nám dostaneš?</h2>
     <p>
-        Sídlíme kousek od Letenského náměstí (což je také zastávka, kde doporučujeme vystoupit, pojedeš-li tramvají).
+        Sídlíme kousek od Letenského náměstí, což je také zastávka, kde doporučujeme vystoupit, pojedeš-li tramvají. Přesná adresa je Malířská 6.
     </p>
     <p>
         Do klubovny tě pustíme, když na nás zazvoníš, nebo zaboucháš na oknenici. Hned za hlavními vstupními dveřmi jsou vlevo dveře přímo do naší klubovny.
     </p>
+
+    <p><em>
+        Mimochodem: Naše akce jsou otevřené komukoliv. Pokud nás chceš potkat a seznámit se s novými lidmi,
+        neměj obavu a využij tenhle návod, jak se k nám dostat. Jsi vítán přijít na jakoukoliv akci.
+    </em></p>
 
     <p>
         <img src="ortofoto-vstup-klubovna.jpg" width="100%" alt="Foto vstupu do budovy" />
@@ -63,5 +77,40 @@ require_once __DIR__ . '/../../config/html_top.php';
             layer.addMarker(marker);
         })
     </script>
+
+    <br /><br />
+
+    <h2>Jak to u nás vypadá</h2>
+
+    <ul class="ilustracniFotoSeznam">
+        <li class="img-responsive img-responsive-40"><img src="img/klubovna-martin-aja.jpg" /></li>
+        <li class="img-responsive img-responsive-60"><img src="img/klubovna-projektor.jpg" /></li>
+
+        <!--        <li class="img-responsive img-responsive-40"><img src="klubovna-pohoda.jpg" /></li>-->
+
+        <li class="img-responsive img-responsive-60"><img src="img/klubovna-kuchyn.jpg" /></li>
+        <li class="img-responsive img-responsive-40"><img src="img/klubovna-koupelna.jpg" /></li>
+    </ul>
+
+    <h2>Milý Avaste, děkujeme za podporu při rekonstrukci!</h2>
+
+    <p>
+        Rádi bychom touto cestou poděkovali <a href="http://nadacnifond.avast.cz/" target="_blank">Nadaci Avast</a>.
+    </p>
+    <p>
+        Jak jsi si možná všiml, naše klubovna je kompletně nová. A právě díky prostředkům,
+        které nám <a href="http://nadacnifond.avast.cz/" target="_blank">Nadace Avast</a> v roce 2017 poskytkla,
+        jsme si totiž mohli naši klubovnu zařídit přesně podle našich představ.
+    </p>
+    <p>
+        Velice si Vážíme, milý <a href="http://nadacnifond.avast.cz/" target="_blank">Avaste</a>, že podporuješ neziskovky.
+        Kdykoliv jsi u nás vítán s otevřenou náručí. :-)
+    <p>
+
+    <ul class="ilustracniFotoSeznam">
+        <li><a href="http://nadacnifond.avast.cz/" target="_blank"><img width=300 src="nadace-avast-logo.svg" /></a></li>
+    </ul>
+
+
 <?php
 require_once __DIR__ . '/../../config/html_bottom.php';

@@ -13,6 +13,10 @@
         <p>
             Nyní najdeš <a href="kontakty/klubovna/">naši Pražskou klubovnu v Malířské 6, Praha 7 - Bubeneč</a> (poblíž Letenského náměstí).
         </p>
+        <p>
+        <p style="color: #bbb"><em>
+            Mimochodem: Novou klubovnu máme i díky podpoře <a href="http://nadacnifond.avast.cz/" target="_blank">Nadace Avast</a>. Díky, že podporuješ neziskovky!
+        </em></p>
     </section>
 
 
@@ -36,7 +40,15 @@
 			vrhne s&nbsp;ostatními do všemožných her.
 		</p>
 	</section>
-	<section id="uvod-right">
+
+
+<ul class="ilustracniFotoSeznam">
+    <li class="img-responsive img-responsive-40"><img src="kontakty/klubovna/img/klubovna-deskovky.jpg" /></li>
+    <li class="img-responsive img-responsive-60"><img src="kontakty/klubovna/img/klubovna-vecirek.jpg" /></li>
+</ul>
+
+
+<section id="uvod-right">
 		<section>
 			<h1>Přijď za námi</h1>
 			<?php

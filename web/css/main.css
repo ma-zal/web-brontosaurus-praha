@@ -201,9 +201,13 @@ input, textarea {
 .ilustracniFotoSeznam li.img-responsive img { max-width: 100%; height: auto; }
 @media screen and (max-width: 959px) {
 	.ilustracniFotoSeznam li.img-responsive.img-responsive-50 { width: 100%; }
+	.ilustracniFotoSeznam li.img-responsive.img-responsive-40 { width: 100%; }
+	.ilustracniFotoSeznam li.img-responsive.img-responsive-60 { width: 100%; }
 }
 @media screen and (min-width: 960px) {
 	.ilustracniFotoSeznam li.img-responsive.img-responsive-50 { width: 50%; }
+	.ilustracniFotoSeznam li.img-responsive.img-responsive-40 { width: 40.09%; }
+	.ilustracniFotoSeznam li.img-responsive.img-responsive-60 { width: 59.91%; }
 }
 
 .ilustracniFotoSeznam li img {

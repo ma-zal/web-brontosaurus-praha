@@ -14,7 +14,7 @@
 ?>
 	<link rel="stylesheet" type="text/css" href="/css/main.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 <?php
 	echo $GLOBALS[CONFIG]['header']['others'];
 	echo '</head>'.NN;

@@ -92,16 +92,17 @@
 			)
 		),
 
+        'klubovna' => array(
+            'nazev' => 'Klubovna v Praze',
+            'url' =>   '/kontakty/klubovna/',
+            'ikona' => 'map-marker',
+        ),
 		'kontakty' => array(
 			'nazev' => 'Kontakty',
-			'url' =>   '/kontakty/klubovna/',
-			'ikona' => 'map-pin',
+			'url' =>   '/kontakty/adresar/',
+			'ikona' => 'address-book',
 
 			'podmenu' => array(
-				'klubovna' => array(
-					'nazev' => 'Klubovna',
-					'url' =>   '/kontakty/klubovna/'
-				),
 				'adresar' => array(
 					'nazev' => 'Adresář kontaktů',
 					'url' =>   '/kontakty/adresar/'
