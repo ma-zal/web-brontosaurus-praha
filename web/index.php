@@ -52,7 +52,7 @@
 		<section>
 			<h1>Přijď za námi</h1>
 			<?php
-			$eventsApiUrl = 'https://graph.facebook.com/v2.5/brontik.praha/events?access_token=' . FCB_ACCESS_TOKEN . '&limit=250&since=' . mktime();
+			$eventsApiUrl = 'https://graph.facebook.com/v6.0/brontik.praha/events?access_token=' . FCB_ACCESS_TOKEN . '&limit=250&since=' . mktime();
 			$fcbApiResult = @file_get_contents($eventsApiUrl);
 			if ($fcbApiResult) {
 				$events = json_decode($fcbApiResult, true);
@@ -81,7 +81,7 @@
 	<section id="uvod-left">
 		<h1>Co je nového?</h1>
 		<?php
-		$postsApiUrl = 'https://graph.facebook.com/v2.5/brontik.praha/feed?access_token=' . FCB_ACCESS_TOKEN . '&limit=10';
+		$postsApiUrl = 'https://graph.facebook.com/v6.0/brontik.praha/feed?access_token=' . FCB_ACCESS_TOKEN . '&limit=10';
 		$fcbApiResult = @file_get_contents($postsApiUrl);
 		if ($fcbApiResult) {
 			$posts = json_decode($fcbApiResult, true);
